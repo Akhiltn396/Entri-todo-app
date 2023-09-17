@@ -1,0 +1,117 @@
+.todo{
+padding: 0px 200px;
+
+}
+.todo-list{
+    text-align: center;
+}
+.add{
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+
+.btn{
+padding: 12px 20px;
+border: none;
+border-radius: 50%;
+font-size:xx-large ;
+
+}
+
+.add h2{
+color: gray;
+}
+
+.add-todo{
+background-color: gray;
+display: flex;
+flex-direction: column;
+width: fit-content;
+text-align: center;
+position: absolute;
+top: 130px;
+border: 4px solid gray;
+border-radius: 5px;
+height: 360px;
+z-index: 1;
+}
+.success{
+
+position: absolute;
+top: 200px;
+background-color: beige;
+color: black;
+padding: 40px;
+font-size: 30px;
+font-weight: 700;
+border-radius: 5px;
+border: 2px solid gray;
+z-index: 2;
+}
+.success span{
+position: absolute;
+top: 0px;
+right: 8px;
+cursor: pointer;
+font-size: 20px;
+}
+
+.works{
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+position: relative;
+}
+.work{
+    border: 1px solid gray;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+
+}
+.container{
+display: flex;
+align-items: center;
+justify-content:space-around;
+padding-top: 10px;
+}
+.check{
+
+border: none;
+border-radius: 5px;
+background-color: gray;
+padding: 8px 10px;
+cursor: pointer;
+
+}
+.img{
+width: 10%;
+
+object-fit: contain;
+cursor: pointer;
+}
+.data{
+color: gray;
+text-decoration: line-through;
+}
+
+.work span{
+color: gray;
+}
+
+@media (max-width:768px){
+    .todo{
+       height: 100%;
+       width: 100%;
+       padding: 0px;
+
+        }
+        .works{
+        position: relative;
+        left: 32px;
+        }
+}
